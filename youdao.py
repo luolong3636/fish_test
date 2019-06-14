@@ -25,7 +25,10 @@ class Dict:
         s.get('http://fanyi.youdao.com/')
 
     def translate(self):
-        i = '为什么花儿这样红'
+        i = '''The blasts came a month after four oil tankers were
+            damaged in an attack off the coast of the United Arab Emirates.
+            The US blamed Iran for that attack, but did not produce evidence.
+            Iran also denied those accusations.'''
         salf = str(int(time.time() * 1000) + random.randint(0, 9))
         n = 'fanyideskweb' + i + salf + "rY0D^0'nM0}g5Mm1z%1G4"
         m.update(n.encode('utf-8'))
@@ -49,4 +52,4 @@ class Dict:
 
 dic = Dict()
 resp = dic.translate()
-print(resp)
+print(resp['translateResult'][0][0]['tgt'])
