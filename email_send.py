@@ -4,7 +4,7 @@ from email.message import EmailMessage
 import imghdr
 
 EMAIL_ADDRESS = '631581305@qq.com'
-EMAIL_PASSWORD = 'tnigyzqgsvuvbeaf'
+EMAIL_PASSWORD = 'stnigyzqgsvuvbeaf'
 
 msg = EmailMessage()
 msg['Subject'] = '使用emailmessage类发送邮件！！！'
