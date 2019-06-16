@@ -1,7 +1,7 @@
 import imaplib, email, os
 
 user = '631581305@qq.com'
-password = 'tnigyzqgsvuvbeaf'
+password = 'stnigyzqgsvuvbeaf'
 imap_url = 'imap.qq.com'
 #Where you want your attachments to be saved (ensure this directory exists) 
 attachment_dir = 'c:\\fish_test'
