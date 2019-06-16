@@ -5,7 +5,7 @@ import os
 import mimetypes
 
 username = '631581305@qq.com'
-password = 'tnigyzqgsvuvbeaf'
+password = 'stnigyzqgsvuvbeaf'
 
 mail = imaplib.IMAP4_SSL("imap.qq.com")
 mail.login(username, password)
